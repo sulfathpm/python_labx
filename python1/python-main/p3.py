@@ -1,0 +1,7 @@
+list1=input("enter list color1").split(',')
+list2=input("enter list color2").split(',')
+print('selected color:',set(list1)-set(list2))
+liist1=input("enter list ").split()
+print(set(liist1))
+x=input("enter list ").split()
+print('list is empty',bool(not len(l)))

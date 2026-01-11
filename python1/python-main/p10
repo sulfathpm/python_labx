@@ -1,0 +1,20 @@
+word=input("Enter a word : ")
+freq={}
+for ch in word:
+    if ch in freq:
+        freq[ch]+=1
+    else:
+        freq[ch]=1
+        
+print(freq)
+    
+names=input('enter list:').split()
+count=0
+for name in names:
+    if name.lower().startswith('a'):
+        count+=1
+    
+print('number of names starting with a:',count)
+
+line=input('enter a string:')
+print('words:',line.split())

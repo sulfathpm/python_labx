@@ -1,0 +1,5 @@
+   s1=input('enter s1')
+s2=input('enter s2')
+print("after swap char at pos1:",s2[0]+s1[1:]+""+s1[0]+s2[1:])
+c=input('enter color').split(',')
+print('alternate colors:',c[::2])                                                                              

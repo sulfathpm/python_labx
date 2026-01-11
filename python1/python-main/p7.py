@@ -1,0 +1,6 @@
+list1=input("enter 1").split(',')
+l2=input("enter list").split(',')
+print(list1)
+print('list 2 : ',l2)
+print('are they equal',list1==l2)
+print('are they of equal length',len(list1)==len(l2))

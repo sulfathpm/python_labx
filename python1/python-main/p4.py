@@ -1,0 +1,5 @@
+a=set(map(int,input(enter collection).split()))
+b=set(map(int,input(enter collection).split()))
+print('list are of same length',len(a)==len(b))
+print('collection sum to same value : ',sum(a)==sum(b))
+print('Are there any common elements : ',len(a&b))

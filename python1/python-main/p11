@@ -1,0 +1,13 @@
+num = list(map(int, input("Enter list: ").split()))
+print([x for x in num if x>0])
+
+print([x**2 for x in num])
+
+word=input('enter word:')
+print([ch for ch in word if ch in 'aeiouAEIOU'])
+
+print([x for x in num if x%2==0])
+
+curr_yr=2025
+yr=int(input('enter a future year'))
+print([i for i in range(curr_yr,yr+1) if (i%4==0 and i%100!=0) or (i%400==0)])
