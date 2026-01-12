@@ -1,0 +1,7 @@
+l1=set(map(int,input("list1:?").split()))
+l2=set(map(int,input("list2:?").split()))
+print("same-length?",len(l1)==len(l2))
+print("same?",l1==l2)
+print("same-sum?",sum(l1)==sum(l2))
+print("any element occur in both?",len(l1&l2))
+print(l1&l2)
