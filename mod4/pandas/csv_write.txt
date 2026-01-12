@@ -1,0 +1,4 @@
+n,a,m,e
+a,g,e
+p,l,a,c,e
+s,a,l,a,r,y
